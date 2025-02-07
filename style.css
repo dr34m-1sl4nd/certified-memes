@@ -1,0 +1,126 @@
+@import url(http://fonts.gstatic.com/s/cutive/v8/6dUc_M1PDZZCBfdFvQn4lQ.ttf);
+@import url(http://fonts.gstatic.com/s/stardosstencil/v6/ygEOyTW9a6u4fi4OXEZeTKx4dljS8LgdW1vxXN8xI8w.ttf);
+@import url(http://fonts.gstatic.com/s/roboto/v16/zN7GBFwfMP4uA6AR0HCoLQ.ttf);
+
+@font-face {
+    font-family: "Rye";
+    src: url(http://fonts.gstatic.com/s/rye/v4/oL17Hdyt4cnc6u-d2vEFZQ.ttf);
+}
+
+@font-face {
+    font-family:"Smokum";
+    src: url(http://fonts.gstatic.com/s/cutive/v8/6dUc_M1PDZZCBfdFvQn4lQ.ttf);
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+img {
+    align-self: flex-start;
+}
+
+.selection {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.recipient-t {
+    display: flex;
+    position: absolute;
+    font-size: 60px;
+    font-family: "Rye";
+    top: 64%;
+    left: 10%;
+    width: 33%;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.donor-t {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-family: "Rye";
+    top: 85%;
+    width: 1056px;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.date-t {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-family: "Rye";
+    top: 90%;
+    width: 1056px;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.recipient-f {
+    display: flex;
+    position: absolute;
+    font-size: 70px;
+    font-family: "Smokum";
+    transform: rotate(-15deg);
+    top: 54%;
+    left: 4%;
+    width: 45%;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.donor-f {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    font-family: "Smokum";
+    transform: rotate(-15deg);
+    top: 75%;
+    width: 1056px;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.date-f {
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    font-family: "Smokum";
+    transform: rotate(-15deg);
+    top: 80%;
+    width: 1056px;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.print {
+    padding: 10px 20px;
+    font-size: 25px;
+    -webkit-text-stroke-width: 2px;
+}

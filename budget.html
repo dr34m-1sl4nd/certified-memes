@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certified Memes</title>
     <link rel="stylesheet" href="style.css">
-    <link href="/path/to/print.css" media="print" rel="stylesheet" />
 </head>
 <body>
     <h1>Create Your Certificate!</h1>
@@ -20,21 +19,21 @@
         <input type="text" name="recname" id="recname">
         <label for="urname">Donor:</label>
         <input type="text" name="urname" id="urname">
-        <label for="date">Date (mm/dd/yyyy):</label>
-        <input type="text" name="date" id="dmy">
+        <label for="date">Date:</label>
+        <input type="date" name="date">
         <button class="print" onclick="">Print</button>
     </form>
 
-    <img src="images/tomfoolery.jpg">
-    <section class="recipient-t">
+    <img src="images/budgetcuts.jpg">
+    <div class="recipient-b">
         <p id="nameone">Recipient Name Here</p>
-    </section>
-    <section class="donor-t">
+    </div>
+    <div class="donor-b">
         <p id="nametwo">Donor Name Here</p>
-    </section>
-    <section class="date-t">
+    </div>
+    <div class="date-b">
         <p id="date">xx-xx-xxxx</p>
-    </section>
+    </div>
     <script src="main.js">
     </script>
 </body>
